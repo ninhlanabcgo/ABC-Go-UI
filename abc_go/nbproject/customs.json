@@ -1,0 +1,12 @@
+{
+    "attributes": {},
+    "elements": {
+        "ion-nav-back-button": {},
+        "ion-view": {},
+        "ion-slide": {},
+        "ion-slide-box": {},
+        "ion-nav-view": {},
+        "ion-content": {},
+        "ion-nav-bar": {}
+    }
+}

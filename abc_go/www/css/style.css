@@ -1,0 +1,30 @@
+/* Empty. Add your own CSS if you like */
+.image-size-40-percent {
+  width: 100%; 
+}
+.item-first-with-image{
+    
+}
+
+.item-block-image-news-width_common{
+    width: 100%;
+    float: left;
+    display: block;
+}
+.item-thumb{
+    width: 45%;
+    float: left;
+    margin: 0 10px 0 0;
+    position: relative;
+}
+
+.item-thumb img{
+    margin: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.item-with-image-content{
+    width: 100%;
+}
