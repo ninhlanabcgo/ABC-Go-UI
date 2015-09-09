@@ -2,16 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/Project/Mobile/cordova/abc_go/platforms/android/assets/www/lib/ionic/css/ionic.css</file>
-            <file>file:/D:/Project/Mobile/cordova/abc_go/www/component/slidebox.html</file>
-            <file>file:/D:/Project/Mobile/cordova/abc_go/www/templates/dash_board.html</file>
-            <file>file:/D:/Project/Mobile/cordova/abc_go/www/component/about.html</file>
-            <file>file:/D:/Project/Mobile/cordova/abc_go/www/js/app.js</file>
-            <file>file:/D:/Project/Mobile/cordova/abc_go/www/component/menu.html</file>
-            <file>file:/D:/Project/Mobile/cordova/abc_go/www/index.html</file>
-            <file>file:/D:/Project/Mobile/cordova/abc_go/www/css/style.css</file>
-        </group>
-        <group name="WSE"/>
+        <group/>
     </open-files>
 </project-private>
