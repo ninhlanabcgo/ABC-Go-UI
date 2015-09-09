@@ -1,0 +1,180 @@
+<!-- The title of the ion-view will be shown on the navbar -->
+<ion-view view-title="ABC GO" hide-back-button="true"> 
+    <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear ion-person" ui-sref="menu.tabs.account">
+        </button>
+    </ion-nav-buttons> 
+    <ion-content class="padding">
+        <div>
+            <div class="card">
+                <button class="button button-clear button-positive" ui-sref="menu.list">
+                    <span>HOT</span>  <span class="ion-chevron-right"></span>  
+                </button>
+                <div class="item item-body">
+                    <ion-slide-box on-slide-changed="slideHasChanged($index)" auto-play = "true" does-continue = "true">
+                        <ion-slide>
+                            <div class="box blue">
+                                <h4>IMAGE 1</h4>
+                                <img class="full-image" src="http://thaibinhtv.vn/Images/noDefaultImage6.gif">
+                            </div>
+                        </ion-slide>
+                        <ion-slide>
+                            <div class="box yellow">
+                                <h4>IMAGE 2</h4>
+                                <img class="full-image" src="http://thaibinhtv.vn/Images/noDefaultImage6.gif">
+                            </div>
+                        </ion-slide>
+                        <ion-slide>
+                            <div class="box pink">
+                                <h4>IMAGE 3</h4>
+                                <img class="full-image" src="http://thaibinhtv.vn/Images/noDefaultImage6.gif">
+                            </div>
+                        </ion-slide>
+                    </ion-slide-box>
+                    <h3>This is a styled Card.</h4> 
+                        <p>
+                            The header is created from a Thumbnail List item,
+                            the content is from a card-body consisting of an image and paragraph text. The footer
+                            consists of tabs, icons aligned left, within the card-footer.
+                        </p>
+                        <p>
+                            <a href="#" class="subdued">1 Like</a>
+                            <a href="#" class="subdued">5 Comments</a>
+                        </p>
+
+                        <a class="item item-thumbnail-left" href="#/menu/detail">
+                            <img src="http://thaibinhtv.vn/Images/noDefaultImage6.gif">
+                            <h2>Pretty Hate Machine 1</h2>
+                            <p>Nine Inch Nails</p>
+                        </a>
+                        <a class="item item-thumbnail-left" href="#/menu/detail">
+                            <img src="http://thaibinhtv.vn/Images/noDefaultImage6.gif">
+                            <h2>Pretty Hate Machine 2</h2>
+                            <p>Nine Inch Nails</p>
+                        </a>
+                        <a class="item item-thumbnail-left" href="#/menu/detail">
+                            <img src="http://thaibinhtv.vn/Images/noDefaultImage6.gif">
+                            <h2>Pretty Hate Machine 3</h2>
+                            <p>Nine Inch Nails</p>
+                        </a>
+                </div>
+            </div> 
+            <div class="card">
+                <button class="button button-clear button-positive" ui-sref="menu.list">
+                    <span>Goi Y Du Lich</span>  <span class="ion-chevron-right"></span> 
+                </button>                             
+
+                <div class="item item-body">
+
+                    <a class="item item-with-image" href="#/menu/detail">
+                        <h2>Pretty Hate Machine 1</h2>  
+                        <div class="item-block-image-news-width_common">
+                            <div class = "item-thumb"> 
+                                <img src="http://thaibinhtv.vn/Images/noDefaultImage6.gif"> 
+                            </div>
+                            <div class="item-with-image-content">
+                                <p>Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails kkkkkk Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="item" href="#/menu/detail">
+                        <h2>Pretty Hate Machine 2</h2>
+                        <p>Nine Inch Nails</p>
+                    </a>
+                    <a class="item" href="#/menu/detail">
+                        <h2>Pretty Hate Machine 3</h2>
+                        <p>Nine Inch Nails</p>
+                    </a>
+                </div>
+            </div> 
+            <div class="card">
+                <button class="button button-clear button-positive" ui-sref="menu.list">
+                    <span>Am Thuc</span>  <span class="ion-chevron-right"></span> 
+                </button>                             
+
+                <div class="item item-body">
+
+                    <a class="item item-with-image" href="#/menu/detail">
+                        <h2>Pretty Hate Machine 1</h2>  
+                        <div class="item-block-image-news-width_common">
+                            <div class = "item-thumb"> 
+                                <img src="http://thaibinhtv.vn/Images/noDefaultImage6.gif"> 
+                            </div>
+                            <div class="item-with-image-content">
+                                <p>Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails kkkkkk Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails Nine Inch Nails </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="item" href="#/menu/detail">
+                        <h2>Pretty Hate Machine 2</h2>
+                        <p>Nine Inch Nails</p>
+                    </a>
+                    <a class="item" href="#/menu/detail">
+                        <h2>Pretty Hate Machine 3</h2>
+                        <p>Nine Inch Nails</p>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <button class="button button-clear button-positive" ui-sref="menu.list">
+                    <span>Kinh nghiem du lich</span>  <span class="ion-chevron-right"></span> 
+                </button>                             
+
+                <div class="item item-body">
+                    <a class="item" href="#/menu/detail">
+                        <h2>Pretty Hate Machine 1</h2>
+                        <p>Nine Inch Nails</p>
+                    </a>
+                    <a class="item" href="#/menu/detail">
+                        <h2>Pretty Hate Machine 2</h2>
+                        <p>Nine Inch Nails</p>
+                    </a>
+                    <a class="item" href="#/menu/detail">
+                        <h2>Pretty Hate Machine 3</h2>
+                        <p>Nine Inch Nails</p>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <button class="button button-clear button-positive" ui-sref="menu.list">
+                    <span>Chia Se</span>  <span class="ion-chevron-right"></span> 
+                </button>
+                <div class="item item-body">
+                    <img src="http://thaibinhtv.vn/Images/noDefaultImage6.gif"> 
+                    <h3>This is a styled Card.</h4> 
+                        <p>
+                            The header is created from a Thumbnail List item,
+                            the content is from a card-body consisting of an image and paragraph text. The footer
+                            consists of tabs, icons aligned left, within the card-footer.
+                        </p>
+                        <p>
+                            <a href="#" class="subdued">1 Like</a>
+                            <a href="#" class="subdued">5 Comments</a>
+                        </p>
+
+                        <a class="item item-thumbnail-left" href="#/menu/detail">
+                            <img src="http://thaibinhtv.vn/Images/noDefaultImage6.gif">
+                            <h2>Pretty Hate Machine 1</h2>
+                            <p>Nine Inch Nails</p>
+                        </a>
+                        <a class="item item-thumbnail-left" href="#/menu/detail">
+                            <img src="http://thaibinhtv.vn/Images/noDefaultImage6.gif">
+                            <h2>Pretty Hate Machine 2</h2>
+                            <p>Nine Inch Nails</p>
+                        </a>
+                        <a class="item item-thumbnail-left" href="#/menu/detail">
+                            <img src="http://thaibinhtv.vn/Images/noDefaultImage6.gif">
+                            <h2>Pretty Hate Machine 3</h2>
+                            <p>Nine Inch Nails</p>
+                        </a>
+                </div>
+            </div> 
+        </div>
+    </ion-content>
+</ion-view>
